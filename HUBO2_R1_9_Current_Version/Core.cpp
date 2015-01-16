@@ -833,6 +833,16 @@ void RTFCNDCL TimerHandler(PVOID context)
 					{
 						Motion_PointBothLeftRight(pSharedMemory->MotionLength[46], pSharedMemory->MOTION_Stop, 46);
 					}
+					else if(pSharedMemory->MotionFlag[47] == TRUE)
+					{
+						Motion_San_PointArm(pSharedMemory->MotionLength[47], pSharedMemory->MOTION_Stop, 47);
+					}
+					else if(pSharedMemory->MotionFlag[48] == TRUE)
+					{
+						Motion_San_PointBothArm(pSharedMemory->MotionLength[48], pSharedMemory->MOTION_Stop, 48);
+					}
+
+
 				}
 				//#################################### Scripting section ###############################################
 				

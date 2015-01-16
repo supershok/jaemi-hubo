@@ -146,6 +146,9 @@ protected:
 	afx_msg void OnJaemiSaysScript1();
 	afx_msg void OnJaemiSaysScript2();
 	afx_msg void OnJaemiSaysCancel();
+	afx_msg void OnGesturePointArm();
+	afx_msg void OnGestureSanPointBothArm();
+	afx_msg void OnGestureSanPointArm();
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 };
