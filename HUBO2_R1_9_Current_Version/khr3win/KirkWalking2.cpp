@@ -89,6 +89,7 @@ BEGIN_MESSAGE_MAP(CKirkWalking2, CDialog)
 	ON_MESSAGE(WM_COMM_READ, OnCommunication)  
 	ON_BN_CLICKED(IDC_BUTTON_COM1OPEN, OnButtonCom1open)
 	ON_BN_CLICKED(IDC_BUTTON_COM1CLOSE, OnButtonCom1close)
+	ON_BN_CLICKED(IDC_BUTTON_NO_WALK_IN_PLACE, OnButtonNoWalkInPlace)
 	//}}AFX_MSG_MAP
 	ON_MESSAGE(WM_COMM_READ, OnCommunication)  
 END_MESSAGE_MAP()
@@ -719,4 +720,89 @@ LRESULT CKirkWalking2::OnCommunication(UINT port, LONG lParam)	// serial
 	}
 
 	return 0;
+}
+
+void CKirkWalking2::OnButtonNoWalkInPlace() 
+{
+
+	// walk in place
+	// TODO: Add your control notification handler code here
+		UpdateData(TRUE);
+
+	GetDlgItem(IDC_BUTTON_WALK_IN_PLACE)->EnableWindow(FALSE);
+	GetDlgItem(IDC_BUTTON_STOP)->EnableWindow(TRUE);
+	GetDlgItem(IDC_BUTTON_GO_FWD)->EnableWindow(FALSE);
+	GetDlgItem(IDC_BUTTON_GO_BWD)->EnableWindow(FALSE);
+	GetDlgItem(IDC_BUTTON_L_SIDE)->EnableWindow(FALSE);
+	GetDlgItem(IDC_BUTTON_R_SIDE)->EnableWindow(FALSE);
+	GetDlgItem(IDC_BUTTON_CCW)->EnableWindow(FALSE);
+	GetDlgItem(IDC_BUTTON_CW)->EnableWindow(FALSE);
+
+	theApp.m_pSharedMemory->gain_temp1 = m_Temp1;
+	theApp.m_pSharedMemory->gain_temp2 = m_Temp2;
+	theApp.m_pSharedMemory->amp_temp1 = m_AmpTemp1;
+	
+	theApp.m_pSharedMemory->Amp_ankleL = m_L_comp_angle;
+	theApp.m_pSharedMemory->Amp_ankleR = m_R_comp_angle;
+		
+	theApp.m_pSharedMemory->Walk_BC_Ydir_Amp = m_BC_Y_AMP;
+	theApp.m_pSharedMemory->Walk_Foot_Zdir_Amp = m_FOOT_Z_AMP;
+
+	theApp.m_pSharedMemory->Gain_LO_Con_r = m_LORollGain;
+	theApp.m_pSharedMemory->Gain_LO_Con_p = m_LOPitchGain;
+
+	//theApp.m_pSharedMemory->Step_time = 95;
+	theApp.m_pSharedMemory->Step_time = m_StepTime;
+	theApp.m_pSharedMemory->dsp_ratio = (float)0.05;
+	theApp.m_pSharedMemory->Delay_time = 10;
+
+	theApp.m_pSharedMemory->Up_time = (unsigned int)(theApp.m_pSharedMemory->Step_time*(1 - theApp.m_pSharedMemory->dsp_ratio));
+	theApp.m_pSharedMemory->Upstart_time = theApp.m_pSharedMemory->Step_time - theApp.m_pSharedMemory->Up_time/2 -  theApp.m_pSharedMemory->Delay_time;
+
+
+
+
+
+
+	//dan
+	theApp.m_pSharedMemory->Walking_Test_Flag = m_WalkTestMode;
+
+	theApp.m_pSharedMemory->Int_CNT = 0;
+	theApp.m_pSharedMemory->Path_Area_CNT = 0;
+	theApp.m_pSharedMemory->Walking_Stop_Flag = ENABLE;  // changed to make walk stop
+	//theApp.m_pSharedMemory->Walking_Stop_Flag = DISABLE;
+	theApp.m_pSharedMemory->Mark_Time_Flag = ENABLE;
+	theApp.m_pSharedMemory->FSM = FALSE;
+	theApp.m_pSharedMemory->PROFTime[11] = 0;
+	theApp.m_pSharedMemory->DataSaveFlag = TRUE;
+//	Walking_Mode = 0;
+
+
+	// Stop
+    theApp.m_pSharedMemory->Walking_Stop_Flag_2 = 1;
+
+
+
+
+/*
+	while(theApp.m_pSharedMemory->Walking_Stop_Flag == DISABLE)
+	{
+		if(theApp.m_pSharedMemory->Walking_Stop_Flag_2 == 1)
+		{
+			theApp.m_pSharedMemory->Walking_Stop_Flag = ENABLE;
+		}
+	}
+*/
+	
+	GetDlgItem(IDC_BUTTON_WALK_IN_PLACE)->EnableWindow(TRUE);
+	GetDlgItem(IDC_BUTTON_STOP)->EnableWindow(FALSE);
+	GetDlgItem(IDC_BUTTON_GO_FWD)->EnableWindow(TRUE);
+	GetDlgItem(IDC_BUTTON_GO_BWD)->EnableWindow(TRUE);
+	GetDlgItem(IDC_BUTTON_L_SIDE)->EnableWindow(TRUE);
+	GetDlgItem(IDC_BUTTON_R_SIDE)->EnableWindow(TRUE);
+	GetDlgItem(IDC_BUTTON_CCW)->EnableWindow(TRUE);
+	GetDlgItem(IDC_BUTTON_CW)->EnableWindow(TRUE);
+
+	Walking_Mode = 6;
+	
 }

@@ -88,6 +88,7 @@ protected:
 	afx_msg LONG OnCommunication(UINT, LONG);	// serial
 	afx_msg void OnButtonCom1open();
 	afx_msg void OnButtonCom1close();
+	afx_msg void OnButtonNoWalkInPlace();
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 };

@@ -1262,6 +1262,7 @@
 #define IDC_EDIT_PULSE_REB              1627
 #define IDC_ComMotion                   1627
 #define IDC_EDIT_PULSE_RWY              1628
+#define IDC_BUTTON_NO_WALK_IN_PLACE     1628
 #define IDC_EDIT_PULSE_RW1              1629
 #define IDC_EDIT_LIMIT_RSP              1630
 #define IDC_EDIT_LIMIT_RSR              1631
@@ -1412,7 +1413,7 @@
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NEXT_RESOURCE_VALUE        156
 #define _APS_NEXT_COMMAND_VALUE         32771
-#define _APS_NEXT_CONTROL_VALUE         1628
+#define _APS_NEXT_CONTROL_VALUE         1629
 #define _APS_NEXT_SYMED_VALUE           101
 #endif
 #endif
