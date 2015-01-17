@@ -146,6 +146,8 @@ protected:
 	afx_msg void OnJaemiSaysScript1();
 	afx_msg void OnJaemiSaysScript2();
 	afx_msg void OnJaemiSaysCancel();
+	afx_msg void OnseqLRUPDWN();
+	afx_msg void OnbothLRUPDWN();
 	//}}AFX_MSG
 	DECLARE_MESSAGE_MAP()
 };

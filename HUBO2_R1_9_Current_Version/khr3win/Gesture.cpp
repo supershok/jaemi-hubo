@@ -149,6 +149,8 @@ ON_BN_CLICKED(IDC_GESTURE_SPEED_FAST, OnGestureSpeedFast)
 ON_BN_CLICKED(IDC_JAEMI_SAYS_SCRIPT1, OnJaemiSaysScript1)
 ON_BN_CLICKED(IDC_JAEMI_SAYS_SCRIPT2, OnJaemiSaysScript2)
 	ON_BN_CLICKED(IDC_JAEMI_SAYS_CANCEL, OnJaemiSaysCancel)
+	ON_BN_CLICKED(maria_seqLRUPDWN, OnseqLRUPDWN)
+	ON_BN_CLICKED(maria_bothLRUPDWN, OnbothLRUPDWN)
 	//}}AFX_MSG_MAP
 ON_MESSAGE(WM_COMM_READ2, OnCommunication)  // dan edit
 //ON_MESSAGE(WM_COMM_READ2, OnCom2Check)		// dan edit
@@ -2363,6 +2365,9 @@ void CGesture::OnButtonMotionActivation()
 	GetDlgItem(IDC_GESTURE_SPEED_SLOW)->EnableWindow(TRUE);
 	GetDlgItem(IDC_GESTURE_SPEED_MEDIUM)->EnableWindow(TRUE);
 	GetDlgItem(IDC_GESTURE_SPEED_FAST)->EnableWindow(TRUE);
+	// START MARIA'S CODE *********************************************
+	GetDlgItem(maria_seqLRUPDWN)->EnableWindow(TRUE);
+	// END MARIA'S CODE ***********************************************
 }
 
 void CGesture::OnCheckRightHand() 
@@ -3728,6 +3733,8 @@ void CGesture::OnGestureRaiseRightArm()
 	}
 }
 
+
+
 void CGesture::OnGestureRightArmCircle() 
 {
 	int		JointIndex;
@@ -4328,6 +4335,112 @@ void CGesture::OnGestureHandsOnHips()
 	}
 }
 
+// START MARIA'S FUNCTIONS ********************
+void CGesture::OnseqLRUPDWN()
+{
+	int		JointIndex;
+	int		t;
+	int		T;
+	
+	int		MotionNo;
+	MotionNo = 47;
+	
+	if(theApp.m_pSharedMemory->MotionFlag[MotionNo] == FALSE)
+	{
+		GetDlgItem(maria_seqLRUPDWN)->EnableWindow(FALSE);
+		/*
+		switch(theApp.m_pSharedMemory->JaemiSaysMotionSpeed)
+		{
+		case 1:
+			T = 201;
+			break;
+		case 2:
+			T = 120;
+			break;
+		case 0:
+		default:
+			T = 300;
+			break;	
+		}
+		
+		DataReset();
+		
+		for(t=0; t < T; t=t+1)
+		{
+			for(JointIndex=0; JointIndex < 16; JointIndex++)
+			{
+				theApp.m_pSharedMemory->UpBody_MTN_CAP_Data[t][JointIndex] = (float)0.0f;
+			}
+		}
+		theApp.Home(T);
+		
+		theApp.m_pSharedMemory->MotionLength[MotionNo] = T;
+		*/
+		theApp.m_pSharedMemory->MotionLength[MotionNo] = 1200;
+		theApp.m_pSharedMemory->MotionFlagALL = 1;
+		theApp.m_pSharedMemory->MotionFlag[MotionNo] = TRUE;
+		//theApp.m_pSharedMemory->PROFTime[11] = 0;
+		
+		theApp.m_pSharedMemory->PROFTime[19] = 0;
+		theApp.m_pSharedMemory->MOTION_Stop = 0;
+	}
+}
+
+void CGesture::OnbothLRUPDWN()
+{
+	int		JointIndex;
+	int		t;
+	int		T;
+	
+	int		MotionNo;
+	MotionNo = 48;
+	
+	if(theApp.m_pSharedMemory->MotionFlag[MotionNo] == FALSE)
+	{
+		GetDlgItem(maria_bothLRUPDWN)->EnableWindow(FALSE);
+		/*
+		switch(theApp.m_pSharedMemory->JaemiSaysMotionSpeed)
+		{
+		case 1:
+			T = 201;
+			break;
+		case 2:
+			T = 120;
+			break;
+		case 0:
+		default:
+			T = 300;
+			break;	
+		}
+		
+		DataReset();
+		
+		for(t=0; t < T; t=t+1)
+		{
+			for(JointIndex=0; JointIndex < 16; JointIndex++)
+			{
+				theApp.m_pSharedMemory->UpBody_MTN_CAP_Data[t][JointIndex] = (float)0.0f;
+			}
+		}
+		theApp.Home(T);
+		
+		theApp.m_pSharedMemory->MotionLength[MotionNo] = T;
+		*/
+		theApp.m_pSharedMemory->MotionFlagALL = 1;
+		theApp.m_pSharedMemory->MotionFlag[MotionNo] = TRUE;
+		//theApp.m_pSharedMemory->PROFTime[11] = 0;
+		
+		theApp.m_pSharedMemory->PROFTime[19] = 0;
+		theApp.m_pSharedMemory->MOTION_Stop = 0;
+	}
+}
+
+// END MARIA'S FUNCTIONS ************************************************
+
+
+
+
+
 //Add radio button functions here
 
 void CGesture::OnGestureSpeedSlow()
@@ -4387,5 +4500,6 @@ void CGesture::OnJaemiSaysCancel()
 	GetDlgItem(IDC_JAEMI_SAYS_SCRIPT1)->EnableWindow(TRUE);
 	GetDlgItem(IDC_JAEMI_SAYS_SCRIPT2)->EnableWindow(TRUE);
 }
+
 
 

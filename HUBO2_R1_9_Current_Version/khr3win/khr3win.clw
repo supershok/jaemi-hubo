@@ -51,23 +51,23 @@ Class21=CGesture
 Resource17=IDD_DIALOG_PROF_GRAPH
 Class22=CMotorState
 Resource18=IDD_DIALOG_MOTOR_STATE
-Resource19=IDD_DIALOG_WALK (Korean)
-Resource20=IDD_KHR3WIN_DIALOG (Korean)
-Resource21=IDD_DIALOG_OPEN_LOOP_TEST (Korean)
-Resource22=IDD_DIALOG_TILT_READ (Korean)
-Resource23=IDD_DIALOG_ZMP_ZERO (Korean)
-Resource24=IDD_DIALOG_Z_PHASE (Korean)
-Resource25=IDD_DIALOG_Z_ENCODER (Korean)
-Resource26=IDD_DIALOG_PARAMETER_SETTING (Korean)
-Resource27=IDD_DIALOG_UTIL (Korean)
-Resource28=IDD_DIALOG_GAIN_SETTING (Korean)
-Resource29=IDD_DIALOG_WALK_EXP (Korean)
-Resource30=IDD_DIALOG_GESTURE (Korean)
-Resource31=IDD_DIALOG_FT_READ (Korean)
-Resource32=IDD_DIALOG_ENC_READ (Korean)
-Resource33=IDD_DIALOG_POSITION_CONTROL (Korean)
-Resource34=IDD_DIALOG_KIRK2_WALKING (Korean)
-Resource35=IDD_DIALOG_PROF_GRAPH (Korean)
+Resource19=IDD_DIALOG_PROF_GRAPH (Korean)
+Resource20=IDD_DIALOG_WALK (Korean)
+Resource21=IDD_DIALOG_ZMP_ZERO (Korean)
+Resource22=IDD_DIALOG_Z_PHASE (Korean)
+Resource23=IDD_KHR3WIN_DIALOG (Korean)
+Resource24=IDD_DIALOG_KIRK2_WALKING (Korean)
+Resource25=IDD_DIALOG_GAIN_SETTING (Korean)
+Resource26=IDD_DIALOG_FT_READ (Korean)
+Resource27=IDD_DIALOG_PARAMETER_SETTING (Korean)
+Resource28=IDD_DIALOG_TILT_READ (Korean)
+Resource29=IDD_DIALOG_GESTURE (Korean)
+Resource30=IDD_DIALOG_POSITION_CONTROL (Korean)
+Resource31=IDD_DIALOG_Z_ENCODER (Korean)
+Resource32=IDD_DIALOG_UTIL (Korean)
+Resource33=IDD_DIALOG_WALK_EXP (Korean)
+Resource34=IDD_DIALOG_OPEN_LOOP_TEST (Korean)
+Resource35=IDD_DIALOG_ENC_READ (Korean)
 Resource36=IDD_DIALOG_MOTOR_STATE (Korean)
 
 [CLS:CBoard]
@@ -2202,7 +2202,7 @@ ImplementationFile=Gesture.cpp
 BaseClass=CDialog
 Filter=D
 VirtualFilter=dWC
-LastObject=IDC_BUTTON_MOTION_ACTIVATION
+LastObject=CGesture
 
 [DLG:IDD_DIALOG_MOTOR_STATE]
 Type=1
@@ -2224,8 +2224,8 @@ VirtualFilter=dWC
 
 [DLG:IDD_DIALOG_GESTURE (Korean)]
 Type=1
-Class=?
-ControlCount=104
+Class=CGesture
+ControlCount=106
 Control1=IDC_BUTTON_CLOSE,button,1342242816
 Control2=IDC_STATIC,button,1342177287
 Control3=IDC_BUTTON_WRIST_MOTION_GO,button,1342242816
@@ -2330,6 +2330,8 @@ Control101=IDC_JAEMI_SAYS_SCRIPT2,button,1342251008
 Control102=IDC_JAEMI_SAYS_CANCEL,button,1342242816
 Control103=IDC_STATIC,button,1342177287
 Control104=IDC_ComMotion,static,1342308352
+Control105=maria_seqLRUPDWN,button,1342242816
+Control106=maria_bothLRUPDWN,button,1342242816
 
 [DLG:IDD_KHR3WIN_DIALOG (Korean)]
 Type=1

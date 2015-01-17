@@ -6,41 +6,41 @@
 --------------------Configuration: khr3win - Win32 Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating command line "rc.exe /l 0x412 /fo"Release/khr3win.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\khr3win.rc"" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP52.tmp" with contents
+Creating command line "rc.exe /l 0x412 /fo"Release/khr3win.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\khr3win.rc"" 
+Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSP71.tmp" with contents
 [
 /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/khr3win.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Board.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\CANwin.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\CommThread.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\EncReadDlg.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\FT_ReadDlg.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\GainSet.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\khr3win.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\khr3winDlg.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\KirkWalking2.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\MotorState.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\OpenLoopTestDlg.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\ParameterSetting.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\PositionControl.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\ProfileGraph.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\TiltReadDlg.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\UtilityWin.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Walk00TestDlg.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\WalkingExpDlg.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Z_PhaseEncoderViewDlg.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Z_PhaseSetDlg.cpp"
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\ZMPZeroDlg.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Board.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\CANwin.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\CommThread.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\EncReadDlg.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\FT_ReadDlg.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\GainSet.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\khr3win.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\khr3winDlg.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\KirkWalking2.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\MotorState.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\OpenLoopTestDlg.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\ParameterSetting.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\PositionControl.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\ProfileGraph.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\TiltReadDlg.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\UtilityWin.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Walk00TestDlg.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\WalkingExpDlg.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Z_PhaseEncoderViewDlg.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Z_PhaseSetDlg.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\ZMPZeroDlg.cpp"
 ]
-Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP52.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP53.tmp" with contents
+Creating command line "cl.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSP71.tmp" 
+Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSP72.tmp" with contents
 [
 /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/khr3win.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
-"C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\StdAfx.cpp"
+"C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\StdAfx.cpp"
 ]
-Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP53.tmp" 
-Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP54.tmp" with contents
+Creating command line "cl.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSP72.tmp" 
+Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSP73.tmp" with contents
 [
 rtapi_w32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/khr3win.pdb" /machine:I386 /out:"Release/khr3win.exe" 
 ".\Release\Board.obj"
@@ -68,7 +68,7 @@ rtapi_w32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/khr3win.p
 ".\Release\ZMPZeroDlg.obj"
 ".\Release\khr3win.res"
 ]
-Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP54.tmp"
+Creating command line "link.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSP73.tmp"
 <h3>Output Window</h3>
 Compiling resources...
 Compiling...
@@ -79,56 +79,62 @@ CANwin.cpp
 CommThread.cpp
 EncReadDlg.cpp
 FT_ReadDlg.cpp
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\FT_ReadDlg.cpp(20) : warning C4355: 'this' : used in base member initializer list
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\FT_ReadDlg.cpp(20) : warning C4355: 'this' : used in base member initializer list
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\FT_ReadDlg.cpp(20) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\FT_ReadDlg.cpp(20) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\FT_ReadDlg.cpp(20) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\FT_ReadDlg.cpp(20) : warning C4355: 'this' : used in base member initializer list
 GainSet.cpp
 Gesture.cpp
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3439) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3440) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3441) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3637) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3636) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3635) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3686) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3685) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3684) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3735) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3734) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3733) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3786) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3785) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3784) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3837) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3836) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3835) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3887) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3886) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3885) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3937) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3936) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3935) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3987) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3986) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3985) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4036) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4035) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4034) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4086) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4085) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4084) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4135) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4134) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4133) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4185) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4184) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4183) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4235) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4234) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4233) : warning C4101: 'JointIndex' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4285) : warning C4101: 'T' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4284) : warning C4101: 't' : unreferenced local variable
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4283) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3444) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3445) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3446) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3642) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3641) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3640) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3691) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3690) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3689) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3742) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3741) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3740) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3793) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3792) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3791) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3844) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3843) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3842) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3894) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3893) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3892) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3944) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3943) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3942) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3994) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3993) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(3992) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4043) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4042) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4041) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4093) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4092) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4091) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4142) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4141) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4140) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4192) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4191) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4190) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4242) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4241) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4240) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4292) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4291) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4290) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4343) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4342) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4341) : warning C4101: 'JointIndex' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4393) : warning C4101: 'T' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4392) : warning C4101: 't' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Gesture.cpp(4391) : warning C4101: 'JointIndex' : unreferenced local variable
 khr3win.cpp
 khr3winDlg.cpp
 KirkWalking2.cpp
@@ -137,19 +143,19 @@ OpenLoopTestDlg.cpp
 ParameterSetting.cpp
 PositionControl.cpp
 ProfileGraph.cpp
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\ProfileGraph.cpp(19) : warning C4355: 'this' : used in base member initializer list
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\ProfileGraph.cpp(19) : warning C4355: 'this' : used in base member initializer list
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\ProfileGraph.cpp(19) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\ProfileGraph.cpp(19) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\ProfileGraph.cpp(19) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\ProfileGraph.cpp(19) : warning C4355: 'this' : used in base member initializer list
 TiltReadDlg.cpp
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\TiltReadDlg.cpp(21) : warning C4355: 'this' : used in base member initializer list
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\TiltReadDlg.cpp(21) : warning C4355: 'this' : used in base member initializer list
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\TiltReadDlg.cpp(22) : warning C4355: 'this' : used in base member initializer list
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\TiltReadDlg.cpp(22) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\TiltReadDlg.cpp(21) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\TiltReadDlg.cpp(21) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\TiltReadDlg.cpp(22) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\TiltReadDlg.cpp(22) : warning C4355: 'this' : used in base member initializer list
 UtilityWin.cpp
 Walk00TestDlg.cpp
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Walk00TestDlg.cpp(21) : warning C4355: 'this' : used in base member initializer list
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Walk00TestDlg.cpp(21) : warning C4355: 'this' : used in base member initializer list
-C:\Documents and Settings\Administrator\Desktop\jaemi-hubo-master\HUBO2_R1_9_Current_Version\khr3win\Walk00TestDlg.cpp(21) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Walk00TestDlg.cpp(21) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Walk00TestDlg.cpp(21) : warning C4355: 'this' : used in base member initializer list
+C:\Documents and Settings\student\Desktop\myJaemiFiles\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Walk00TestDlg.cpp(21) : warning C4355: 'this' : used in base member initializer list
 WalkingExpDlg.cpp
 Z_PhaseEncoderViewDlg.cpp
 Generating Code...
@@ -162,7 +168,7 @@ Linking...
 
 
 <h3>Results</h3>
-khr3win.exe - 0 error(s), 58 warning(s)
+khr3win.exe - 0 error(s), 64 warning(s)
 </pre>
 </body>
 </html>
