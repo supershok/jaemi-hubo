@@ -10745,7 +10745,7 @@ void Motion_Aux_UNLV(int T, char MotionStop,unsigned int MotionNo)
   res[LEB] = (float)((-10.-100.)*(result1[LEB])+100.);
 
   // LSR from -25 to -35 degrees
-  FTN_half_1_cos( 1.0f,time,    1400,1200,0,0,&result1[LSR]);
+  FTN_half_1_cos( 1.0f,time,    2700,1200,0,0,&result1[LSR]);
   res[LSR] = (float)((-35.+25.)*(result1[LSR])-25.);
   
 
