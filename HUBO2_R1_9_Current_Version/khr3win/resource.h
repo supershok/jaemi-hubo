@@ -1244,6 +1244,7 @@
 #define IDC_EDIT_ENC_RWY                1616
 #define IDC_GESTURE_HANDS_ON_HIPS       1616
 #define IDC_EDIT_ENC_RW1                1617
+#define IDC_GESTURE_AUX_BEND_RIGHT_ELBOW 1617
 #define IDC_EDIT_REV_RSP                1618
 #define IDC_EDIT_REV_RSR                1619
 #define IDC_EDIT_REV_RSY                1620

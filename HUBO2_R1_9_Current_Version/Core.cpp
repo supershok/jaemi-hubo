@@ -833,6 +833,10 @@ void RTFCNDCL TimerHandler(PVOID context)
 					{
 						Motion_PointBothLeftRight(pSharedMemory->MotionLength[46], pSharedMemory->MOTION_Stop, 46);
 					}
+					else if(pSharedMemory->MotionFlag[47] == TRUE)
+					{
+						Motion_Aux_Bend_Right_Elbow(pSharedMemory->MotionLength[47], pSharedMemory->MOTION_Stop, 4);
+					}
 				}
 				//#################################### Scripting section ###############################################
 				
