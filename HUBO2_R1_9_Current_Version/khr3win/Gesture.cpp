@@ -150,6 +150,7 @@ ON_BN_CLICKED(IDC_JAEMI_SAYS_SCRIPT1, OnJaemiSaysScript1)
 ON_BN_CLICKED(IDC_JAEMI_SAYS_SCRIPT2, OnJaemiSaysScript2)
 	ON_BN_CLICKED(IDC_JAEMI_SAYS_CANCEL, OnJaemiSaysCancel)
 	ON_BN_CLICKED(IDC_GESTURE_AUX_BEND_RIGHT_ELBOW, OnGestureAuxBendRightElbow)
+	ON_BN_CLICKED(IDC_GESTURE_AUX_UNLV, OnGestureAuxUnlv)
 	//}}AFX_MSG_MAP
 ON_MESSAGE(WM_COMM_READ2, OnCommunication)  // dan edit
 //ON_MESSAGE(WM_COMM_READ2, OnCom2Check)		// dan edit
@@ -2365,6 +2366,7 @@ void CGesture::OnButtonMotionActivation()
 	GetDlgItem(IDC_GESTURE_SPEED_MEDIUM)->EnableWindow(TRUE);
 	GetDlgItem(IDC_GESTURE_SPEED_FAST)->EnableWindow(TRUE);
 	GetDlgItem(IDC_GESTURE_AUX_BEND_RIGHT_ELBOW)->EnableWindow(TRUE); 
+	GetDlgItem(IDC_GESTURE_AUX_UNLV)->EnableWindow(TRUE); 
 }
 
 void CGesture::OnCheckRightHand() 
@@ -4433,6 +4435,59 @@ void CGesture::OnGestureAuxBendRightElbow()
 		*/
 		
 		theApp.m_pSharedMemory->MotionLength[MotionNo] = 600;
+		theApp.m_pSharedMemory->MotionFlagALL = 1;
+		theApp.m_pSharedMemory->MotionFlag[MotionNo] = TRUE;
+		//theApp.m_pSharedMemory->PROFTime[11] = 0;
+		
+		theApp.m_pSharedMemory->PROFTime[19] = 0;
+		theApp.m_pSharedMemory->MOTION_Stop = 0;
+	}
+}
+
+
+void CGesture::OnGestureAuxUnlv() 
+{
+	int		JointIndex;
+	int		t;
+	int		T;
+	
+	int		MotionNo;
+	MotionNo = 48;
+	T = 4000;
+	
+	if(theApp.m_pSharedMemory->MotionFlag[MotionNo] == FALSE)
+	{
+		GetDlgItem(IDC_GESTURE_AUX_UNLV)->EnableWindow(FALSE); 
+		/*
+		switch(theApp.m_pSharedMemory->JaemiSaysMotionSpeed)
+		{
+		case 1:
+			T = 201;
+			break;
+		case 2:
+			T = 120;
+			break;
+		case 0:
+		default:
+			T = 300;
+			break;	
+		}
+		
+		DataReset();
+		
+		for(t=0; t < T; t=t+1)
+		{
+			for(JointIndex=0; JointIndex < 16; JointIndex++)
+			{
+				theApp.m_pSharedMemory->UpBody_MTN_CAP_Data[t][JointIndex] = (float)0.0f;
+			}
+		}
+		theApp.Home(T);
+		
+		theApp.m_pSharedMemory->MotionLength[MotionNo] = T;
+		*/
+		
+		theApp.m_pSharedMemory->MotionLength[MotionNo] = T;
 		theApp.m_pSharedMemory->MotionFlagALL = 1;
 		theApp.m_pSharedMemory->MotionFlag[MotionNo] = TRUE;
 		//theApp.m_pSharedMemory->PROFTime[11] = 0;
