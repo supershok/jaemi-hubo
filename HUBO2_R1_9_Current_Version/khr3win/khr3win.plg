@@ -7,7 +7,7 @@
 </h3>
 <h3>Command Lines</h3>
 Creating command line "rc.exe /l 0x412 /fo"Release/khr3win.res" /d "NDEBUG" /d "_AFXDLL" "C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\khr3win.rc"" 
-Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSP89.tmp" with contents
+Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSPA8.tmp" with contents
 [
 /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/khr3win.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
 "C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Board.cpp"
@@ -33,14 +33,14 @@ Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSP89.tmp" with conte
 "C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\Z_PhaseSetDlg.cpp"
 "C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\ZMPZeroDlg.cpp"
 ]
-Creating command line "cl.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSP89.tmp" 
-Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSP8A.tmp" with contents
+Creating command line "cl.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSPA8.tmp" 
+Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSPA9.tmp" with contents
 [
 /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/khr3win.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
 "C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\khr3win\StdAfx.cpp"
 ]
-Creating command line "cl.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSP8A.tmp" 
-Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSP8B.tmp" with contents
+Creating command line "cl.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSPA9.tmp" 
+Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSPAA.tmp" with contents
 [
 rtapi_w32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/khr3win.pdb" /machine:I386 /out:"Release/khr3win.exe" 
 ".\Release\Board.obj"
@@ -68,7 +68,7 @@ rtapi_w32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/khr3win.p
 ".\Release\ZMPZeroDlg.obj"
 ".\Release\khr3win.res"
 ]
-Creating command line "link.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSP8B.tmp"
+Creating command line "link.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSPAA.tmp"
 <h3>Output Window</h3>
 Compiling resources...
 Compiling...

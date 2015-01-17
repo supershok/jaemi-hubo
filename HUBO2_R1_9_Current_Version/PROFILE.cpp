@@ -10697,54 +10697,60 @@ void Motion_Aux_UNLV(int T, char MotionStop,unsigned int MotionNo)
 
   // RSR from 90 to 110 degrees
   FTN_half_1_cos( 1.0f,time,    100,1200,0,0,&result1[RSR]);
-  res[RSR] = (float)((110.-90.)*(result1[RSR])+90);
+  res[RSR] = (float)((110.-90.)*(result1[RSR])+90.);
 
   // (Desired degree - original)*result + original
   // RSY from -90 to 90 degrees
   FTN_half_1_cos( 1.0f,time,    1400,1200,0,0,&result1[RSY]);
-  res[RSY] = (float)((90.+90.)*(result1[RSY])-90);
+  res[RSY] = (float)((90.+90.)*(result1[RSY])-90.);
   
-  // REB from 30 to 90 degrees
+  // REB from 30 to 100 degrees
   FTN_half_1_cos( 1.0f,time,    1400,1200,0,0,&result1[REB]);
-  res[REB] = (float)((90.-30.)*(result1[REB])+30);
+  res[REB] = (float)((100.-30.)*(result1[REB])+30.);
   
   // ---Left arm---
 
   // LSR from -90 to -25 degrees
   FTN_half_1_cos( 1.0f,time,    1400,1200,0,0,&result1[LSR]);
-  res[LSR] = (float)((-25.+90.)*(result1[LSR])-90);
+  res[LSR] = (float)((-25.+90.)*(result1[LSR])-90.);
   
   // LSY no change from -90 degrees
   
-  // LEB from 30 to 90 degrees
+  // LEB from 30 to 100 degrees
   FTN_half_1_cos( 1.0f,time,    1400,1200,0,0,&result1[LEB]);
-  res[LEB] = (float)((90.-30.)*(result1[LEB])+30);
-  /*
+  res[LEB] = (float)((100.-30.)*(result1[LEB])+30.);
+  
   // *****Letter L*****
   
   // ---Right arm---
   
-  // RSP from home to 180 degrees
-  FTN_half_1_cos( 1.0f,time,    1400,600,0,0,&result1[RSP]);
-  res[RSP] = (float)(180.*(result1[RSP]));  
-  
-  // RSR to 45 degrees
-  FTN_half_1_cos( 1.0f,time,    1400,600,0,0,&result1[RSR]);
-  res[RSR] = (float)(45.*(result1[RSR]));
-  
-  // RSY no change
-  
-  // REB no change
+   // (Desired degree - original)*result + original
+  // RSY from 90 to -90 degrees
+  FTN_half_1_cos( -1.0f,time,    2700,1200,0,0,&result1[RSY]);
+  res[RSY] = (float)((90.+90.)*(result1[RSY])-90.);
+
+ // REB from 100 to -10 degrees
+  FTN_half_1_cos( -1.0f,time,    2700,1200,0,0,&result1[REB]);
+  res[REB] = (float)((-10.-100.)*(result1[REB])+100.);
+
+  // RSR from 110 to 140 degrees
+  FTN_half_1_cos( 1.0f,time,    2700,1200,0,0,&result1[RSR]);
+  res[RSR] = (float)((140.-110.)*(result1[RSR])+110.);
+
+
   
   // ---Left arm---
-  // LSR to -90 degrees
-  FTN_half_1_cos( 1.0f,time,    1400,600,0,0,&result1[LSR]);
-  res[LSR] = (float)(-90.*(result1[LSR]));
+  // LEB from 100 to -10 degrees
+  FTN_half_1_cos( -1.0f,time,    2700,1200,0,0,&result1[LEB]);
+  res[LEB] = (float)((-10.-100.)*(result1[LEB])+100.);
+
+  // LSR from -25 to -35 degrees
+  FTN_half_1_cos( 1.0f,time,    1400,1200,0,0,&result1[LSR]);
+  res[LSR] = (float)((-35.+25.)*(result1[LSR])-25.);
   
-  // LSY no change from -90 degrees
+
   
-  // LEB no change
-  
+  /*
   // *****Letter V*****
   
   // ---Right arm---
