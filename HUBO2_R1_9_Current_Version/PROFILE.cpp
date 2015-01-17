@@ -9288,7 +9288,7 @@ void Motion_San_PointArm(int T, char MotionStop,unsigned int MotionNo)
 			// LEB from 0 to -45 then back to 0 
 			FTN_half_1_cos( 1.0f,time,    25,100,0,0,&result1[LEB]);
 			FTN_half_1_cos(-1.0f,time,    325,100,0,0,&result2[LEB]);
-			res[LEB] = (float)(-45.*(result1[LEB]+result2[LEB]));
+			res[LEB] = (float)(45.*(result1[LEB]+result2[LEB]));
 
 	/*
 			// LSY from 0 to 35 then back to 0 
