@@ -10727,7 +10727,7 @@ void Motion_Aux_UNLV(int T, char MotionStop,unsigned int MotionNo)
    // (Desired degree - original)*result + original
   // RSY from 90 to -90 degrees
   FTN_half_1_cos( -1.0f,time,    2700,1200,0,0,&result1[RSY]);
-  res[RSY] = (float)((90.+90.)*(result1[RSY])-90.);
+  res[RSY] = (float)((90.+90.)*(result1[RSY])+90.);
 
  // REB from 100 to -10 degrees
   FTN_half_1_cos( -1.0f,time,    2700,1200,0,0,&result1[REB]);
@@ -10742,7 +10742,7 @@ void Motion_Aux_UNLV(int T, char MotionStop,unsigned int MotionNo)
   // ---Left arm---
   // LEB from 100 to -10 degrees
   FTN_half_1_cos( -1.0f,time,    2700,1200,0,0,&result1[LEB]);
-  res[LEB] = (float)((-10.-100.)*(result1[LEB])+100.);
+  res[LEB] = (float)((10.+100.)*(result1[LEB])+100.);
 
   // LSR from -25 to -35 degrees
   FTN_half_1_cos( 1.0f,time,    2700,1200,0,0,&result1[LSR]);
