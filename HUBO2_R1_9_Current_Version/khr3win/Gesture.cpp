@@ -4453,7 +4453,7 @@ void CGesture::OnGestureAuxUnlv()
 	
 	int		MotionNo;
 	MotionNo = 48;
-	T = 4000;
+	T = 8000;
 	
 	if(theApp.m_pSharedMemory->MotionFlag[MotionNo] == FALSE)
 	{

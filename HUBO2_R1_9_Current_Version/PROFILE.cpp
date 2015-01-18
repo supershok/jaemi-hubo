@@ -10613,6 +10613,7 @@ void Motion_Aux_UNLV(int T, char MotionStop,unsigned int MotionNo)
 	float	result2[NumOfMotionJoint];
 	float	result3[NumOfMotionJoint];
 	float	result4[NumOfMotionJoint];
+	float	result5[NumOfMotionJoint];
 	float	LOCALresultMTRAng[TOTAL_MTR_NUM];
 
 	static float LOCALoldJntAng[TOTAL_MTR_NUM];
@@ -10705,74 +10706,60 @@ void Motion_Aux_UNLV(int T, char MotionStop,unsigned int MotionNo)
   
    // (Desired degree - original)*result + original
   // RSY from 90 to -90 degrees
-  FTN_half_1_cos( -1.0f,time,    2700,1200,0,0,&result3[RSY]);
+  FTN_half_1_cos( 1.0f,time,    2700,1200,0,0,&result3[RSY]);
 
   // REB from 100 to -10 degrees
-  FTN_half_1_cos( -1.0f,time,    2700,1200,0,0,&result3[REB]);
+  FTN_half_1_cos( 1.0f,time,    2700,1200,0,0,&result3[REB]);
 
   // RSR from 110 to 140 degrees
   FTN_half_1_cos( 1.0f,time,    2700,1200,0,0,&result3[RSR]);
   
   // LEB from 100 to -10 degrees
-  FTN_half_1_cos( -1.0f,time,    2700,1200,0,0,&result3[LEB]);
+  FTN_half_1_cos( 1.0f,time,    2700,1200,0,0,&result3[LEB]);
 
   // LSR from -25 to -35 degrees
   FTN_half_1_cos( 1.0f,time,    2700,1200,0,0,&result3[LSR]);
   
   // *****Letter V*****  
 
-  // RSR from 125 to 110 degrees
-  FTN_half_1_cos( -1.0f,time,    4000,1200,0,0,&result4[RSR]);
+  // RSR from 125 to 100 degrees
+  FTN_half_1_cos( 1.0f,time,    4000,1200,0,0,&result4[RSR]);
   
   // LSR from -50 to -100 degrees
   FTN_half_1_cos( 1.0f,time,    4000,1200,0,0,&result4[LSR]);
 
   
-  /*
+  
   // *****Motion Complete - Return to Home Position*****
-  
-  // ---Right arm---
-  
-  // RSP to 180 degrees
-  FTN_half_1_cos(-1.0f,time,    2800,600,0,0,&result2[RSP]);
-  res[RSP] = (float)(180.*(result4[RSP]+result2[RSP]));
 
-  // RSR to 45 degrees
-  FTN_half_1_cos(-1.0f,time,    2800,600,0,0,&result2[RSR]);
-  res[RSR] = (float)(45.*(result4[RSR]+result2[RSR]));
   
-  // RSY to home
-  FTN_half_1_cos(-1.0f,time,    2800,600,0,0,&result2[RSY]);
-  res[RSY] = (float)(90.*(result4[RSY]+result2[RSY]));
+  FTN_half_1_cos( 1.0f,time,    6200,1200,0,0,&result5[RSR]);
   
-  // REB to home
-  FTN_half_1_cos(-1.0f,time,    2800,600,0,0,&result2[REB]);
-  res[REB] = (float)(135.*(result4[REB]+result2[REB]));
+  // RSY to -90 degrees
+  FTN_half_1_cos( 1.0f,time,    6200,1200,0,0,&result5[RSY]);
   
-  
-  // ---Left arm---
-  
-  // LSR to -45 degrees
-  FTN_half_1_cos(-1.0f,time,    2800,600,0,0,&result2[LSR]);
-  res[LSR] = (float)(-45.*(result4[LSR]+result2[LSR]));
-  
-  // LSY to home
-  FTN_half_1_cos(-1.0f,time,    2800,600,0,0,&result2[LSY]);
-  res[LSY] = (float)(-90.*(result4[LSY]+result2[LSY]));
-  
-  // LEB to 180 degrees
-  FTN_half_1_cos(-1.0f,time,    2800,600,0,0,&result2[LEB]);
-  res[LEB] = (float)(180.*(result4[LEB]+result2[LEB]));
+  // REB to 30 degrees
+  FTN_half_1_cos( 1.0f,time,    6200,1200,0,0,&result5[REB]);
 
-  */
+  // LSR from home (approximately -45 degrees) to -90 degrees
+  FTN_half_1_cos( 1.0f,time,    6200,1200,0,0,&result5[LSR]);
+
+  // LSY to -90 degrees
+  FTN_half_1_cos( 1.0f,time,    6200,1200,0,0,&result5[LSY]);
+
+  // LEB to 30 degrees
+  FTN_half_1_cos( 1.0f,time,    6200,1200,0,0,&result5[LEB]);
+
+
+  
 
   // sum of all movements beginning at different times
-	res[RSR] = (float)((-100+125)*result4[RSR]+((125.-110.)*(result3[RSR])+((110.-90.)*(result2[RSR])+90.*result1[RSR])));
-	res[RSY] = (float)((90.+90.)*(result3[RSY])+(90.+90.)*(result2[RSY])-90.*(result1[RSY]));
-	res[REB] = (float)((10.+70.)*(result3[REB])+(85.-30.)*(result2[REB])+30.*(result1[REB]));
-	res[LSR] = (float)((-50+100)*result4[LSR]*((-50.+25.)*(result3[LSR])+(-25.+90.)*(result2[LSR])-90.*(result1[LSR])));
-	res[LSY] = (float)(-90.*(result1[LSY]));
-	res[LEB] = (float)((10.+70.)*(result3[LEB])+(85.-30.)*(result2[LEB])+30.*(result1[LEB]));
+	res[RSR] = (float)((0.-100.)*result5[RSR]+(100.-125.)*result4[RSR]+((125.-110.)*(result3[RSR])+((110.-70.)*(result2[RSR])+70.*result1[RSR])));
+	res[RSY] = (float)((0.-(-90.))*result5[RSY]+(-90.-90.)*(result3[RSY])+(90.-(-90.))*(result2[RSY])-90.*(result1[RSY]));
+	res[REB] = (float)((0.-(-10.))*result5[REB]+(-10.-70.)*(result3[REB])+(70.-52.)*(result2[REB])+52.*(result1[REB]));
+	res[LSR] = (float)((0.-(-100.))*result5[LSR]+(-100.-(-50.))*result4[LSR]+((-50.-(-25.))*(result3[LSR])+(-25.-(-70.))*(result2[LSR])-70.*(result1[LSR])));
+	res[LSY] = (float)((0.-(-90.))*result5[LSY]+(-90.)*(result1[LSY]));
+	res[LEB] = (float)((0.-(-10.))*result5[LEB]+(-10.-70.)*(result3[LEB])+(70.-52.)*(result2[LEB])+52.*(result1[LEB]));
 
 
 			///End of the user modified code ////////////////////////////////////////////
