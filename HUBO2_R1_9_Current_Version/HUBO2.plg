@@ -6,7 +6,7 @@
 --------------------Configuration: HUBO2 - Win32 RTSS Release--------------------
 </h3>
 <h3>Command Lines</h3>
-Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSPC4.tmp" with contents
+Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSPCD.tmp" with contents
 [
 /nologo /ML /W3 /GX /Ox /I "C:\Program Files\Ardence\RTX SDK\include" /D "WIN32" /D "UNDER_RTSS" /D "NDEBUG" /D "RELEASE" /D "_UNICODE" /D "UNICODE" /FR"HUBO2___Win32_RTSS_Release/" /Fp"HUBO2___Win32_RTSS_Release/HUBO2.pch" /YX /Fo"HUBO2___Win32_RTSS_Release/" /Fd"HUBO2___Win32_RTSS_Release/" /FD /c 
 "C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\CAN.CPP"
@@ -16,8 +16,8 @@ Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSPC4.tmp" with conte
 "C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\PROFILE.cpp"
 "C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\RTX.CPP"
 ]
-Creating command line "cl.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSPC4.tmp" 
-Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSPC5.tmp" with contents
+Creating command line "cl.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSPCD.tmp" 
+Creating temporary file "C:\DOCUME~1\student\LOCALS~1\Temp\RSPCE.tmp" with contents
 [
 startupCRT.obj rtxlibc.lib oldnames.lib rtapi_rtss.lib rtx_rtss.lib /nologo /entry:"_RtapiProcessEntryCRT@8" /pdb:none /machine:I386 /nodefaultlib:"libc" /nodefaultlib:"libcd" /nodefaultlib:"libcmt" /nodefaultlib:"libcmtd" /nodefaultlib /out:"HUBO2___Win32_RTSS_Release/HUBO2.rtss" /libpath:"C:\Program Files\Ardence\RTX SDK\lib" /driver /subsystem:native,4.00 /align:0x20 
 ".\HUBO2___Win32_RTSS_Release\CAN.OBJ"
@@ -27,7 +27,7 @@ startupCRT.obj rtxlibc.lib oldnames.lib rtapi_rtss.lib rtx_rtss.lib /nologo /ent
 ".\HUBO2___Win32_RTSS_Release\PROFILE.obj"
 ".\HUBO2___Win32_RTSS_Release\RTX.OBJ"
 ]
-Creating command line "link.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSPC5.tmp"
+Creating command line "link.exe @C:\DOCUME~1\student\LOCALS~1\Temp\RSPCE.tmp"
 <h3>Output Window</h3>
 Compiling...
 CAN.CPP
@@ -111,10 +111,10 @@ C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Ver
 C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\PROFILE.cpp(9907) : warning C4101: 'Local_TxData' : unreferenced local variable
 C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\PROFILE.cpp(10093) : warning C4101: 'Local_TxData' : unreferenced local variable
 C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\PROFILE.cpp(10447) : warning C4101: 'Local_TxData' : unreferenced local variable
+C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\PROFILE.cpp(10614) : warning C4101: 'result3' : unreferenced local variable
 C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\PROFILE.cpp(10615) : warning C4101: 'result4' : unreferenced local variable
 C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\PROFILE.cpp(10620) : warning C4101: 'Local_TxData' : unreferenced local variable
 RTX.CPP
-C:\Documents and Settings\student\Desktop\curr\jaemi-hubo\HUBO2_R1_9_Current_Version\PROFILE.cpp(10732) : warning C4700: local variable 'result3' used without having been initialized
 Linking...
 
 
